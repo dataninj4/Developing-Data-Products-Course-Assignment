@@ -1,0 +1,57 @@
+
+
+Star Wars Character Regressions Shiny App
+========================================================
+author: Sebastian
+date: 29-Aug-2019
+autosize: true
+font-import: http://fonts.googleapis.com/css?family=Risque
+font-family: 'Kanit'
+
+Linear Regression
+========================================================
+
+of the R Star wars Characters 
+
+Regress and plot the height and mass of all 
+subsetted Characters.
+
+```{r echo=FALSE}
+library(datasets)
+library(dplyr)
+sw <- data.frame(starwars)
+print(sw[1:10,1:3])
+```
+
+Predict your personal Star Wars Mass 
+========================================================
+
+Predict your personal Star Wars Weight on earth
+
+with your real life body height in centimeters.
+
+Yes centimeters only - certainly no imperial units here!
+
+
+R Shiny Reactive is used with all input elements.
+
+So all changes on the data are immediately update on screen.
+
+
+Are you from the Hutt Species?
+========================================================
+
+If not better not include Jabba the Hutt in to the 
+regression data ;)
+```{r}
+library(datasets)
+library(dplyr)
+sw <- data.frame(starwars)
+print(sw[14:18,1:3])
+
+```
+
+Screenshot
+========================================================
+
+![](screenshot1.png)
