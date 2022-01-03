@@ -18,3 +18,5 @@ just got to the URL
 https://marcopolo88.shinyapps.io/myapp2/
 and follow the instructions on the screen.
 Nothing that can go wrong, unless you do not have internet or the browser is broken.
+
+![Star Wars Character Regressions Shiny App](screenshot1.png "Star Wars Character Regressions Shiny App")
